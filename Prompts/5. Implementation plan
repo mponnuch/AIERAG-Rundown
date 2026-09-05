@@ -1,0 +1,25 @@
+implementation plan:
+
+this is for our notes - not for execution
+
+ask copilot to provide, what is the best way to implement?? to get clarity
+==================================================================================
+
+Use master-implementation-tracker.md as your execution controller.
+
+How to use it:
+
+Start with Wave 1 in the tracker, not by picking random tasks.
+For each project, open the linked project plan and execute milestone tasks in order.
+After each task/subtask, run that checkpoint’s tests immediately.
+Update milestone status in the tracker only when test gates pass.
+Use the dependency matrix to know when a downstream project is unblocked.
+Practical start order:
+
+Project 1 Milestone 1 (artifact contract)
+Project 3 Milestone 1 (API contract and config modes)
+Project 2 Milestone 1 (intake and mapping against P1/P3 contracts)
+Then proceed to Wave 2 using the same gate discipline.
+So: requirements/design define what and why, project plans define how per project, and the master tracker defines when and in what sequence.
+
+Verify all generated documents before starting implmentation

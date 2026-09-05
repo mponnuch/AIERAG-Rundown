@@ -1,0 +1,5 @@
+create a setup or run guide which explain how to collect source docs, how to run each project and what to expect as a result and save the document under docs
+
+ensure to add the necessary configuration settings for each project
+
+create sample env files for each project

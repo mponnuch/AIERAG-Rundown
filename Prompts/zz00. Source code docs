@@ -1,0 +1,66 @@
+prompt: provide me the list of documents i can download to use it as my RAW data
+
+
+Use a mixed raw corpus so you can test Docling conversion, Chonkie chunking, Ollama generation, and retrieval quality on different document shapes.
+
+**Recommended raw documents to download**
+1. SEC 10-K annual reports
+- Best for long, structured, section-heavy business documents
+- Source: SEC EDGAR public filings
+
+2. SEC 10-Q quarterly reports
+- Good for shorter filings and repeated quarterly structure
+- Source: SEC EDGAR public filings
+
+3. SEC 8-K current reports
+- Good for event-driven filings and shorter documents
+- Source: SEC EDGAR public filings
+
+4. GAO reports
+- Strong for government-style structured PDFs
+- Good for summaries, factoids, and QA extraction
+- Source: GAO publications
+
+5. Congressional hearing transcripts
+- Good for long narrative text and Q&A style content
+- Source: GovInfo / Congress repositories
+
+6. CFR / government regulation pages
+- Good for highly structured section-based documents
+- Source: GovInfo / eCFR
+
+7. arXiv research papers
+- Good for academic PDFs with sections, equations, references
+- Source: arXiv
+
+8. Technical documentation pages
+- Good examples: Python docs, PostgreSQL docs, Kubernetes docs
+- Best for HTML-to-Markdown conversion and semantic chunking
+- Source: official documentation websites
+
+9. Public whitepapers
+- Good for mixed prose, charts, and section-based formatting
+- Source: company or government public sites
+
+10. Policy documents
+- Good for testing long-form summarization and contextual chunking
+- Source: government or public policy repositories
+
+**Best starter mix**
+- 5 SEC filings
+- 5 GAO reports
+- 5 arXiv papers
+- 5 technical docs
+- 5 policy or hearing documents
+
+That gives you enough variety to showcase:
+- Docling conversion from PDF/HTML/DOC-style inputs
+- Chonkie semantic chunking
+- Ollama-powered abstractive summaries, QA pairs, factoids, and RAPTOR
+- FastAPI ingestion and search
+- Streamlit result exploration
+
+If you want, I can next give you:
+1. a concrete download checklist by source,
+2. a sample `source_index.csv` population plan,
+3. or a minimal 20-document showcase corpus recommendation.
