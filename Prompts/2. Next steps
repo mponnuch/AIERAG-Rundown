@@ -1,0 +1,7 @@
+Ask the agent -
+
+save the generated spec doc as 2 separate documents
+- requirements.md
+- design.md
+
+- Add a architecture diagram to the design to visualize the technical architecture and the pieces involved

@@ -1,0 +1,11 @@
+run phase 1 with sample docs, db, qdrant etc.
+fix all the issues and ensure it is working before moving to next stage
+
+===========================================================================
+
+implement qdrant database removing inmemory qdrant
+
+implement retrieval pipeline
+- simple transformer & splade
+- if needed level 2 matryoshka (64d, 768d), splade - (drop simple transformer)
+- if needed include level 3 colbert

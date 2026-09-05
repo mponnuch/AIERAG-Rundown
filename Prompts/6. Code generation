@@ -1,0 +1,10 @@
+each project needs to be implemented into their own folder with proper project name
+
+create a separate pyproject.toml for each project and livev within the project folder
+and each project will have its own virtual environment
+
+add gitignore to every project
+
+lets start with wave 1 - everytime you finish a milestone ensure to get approval from me before starting the next milestone
+
+update the checklist of both master and projects - end fo every milestone
